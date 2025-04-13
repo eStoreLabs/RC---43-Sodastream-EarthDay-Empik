@@ -1,23 +1,19 @@
 @font-face {
-  font-family: "HurmeGeometricSans3-Bold";
-  src: local("HurmeGeometricSans3-Bold"), url("../fonts/HurmeGeometricSans3-Bold.woff") format("woff");
+  font-family: "empikPro-Bold";
+  src: local("empikPro-Bold"), url("../fonts/empikPro-Bold.woff2") format("truetype");
 }
 @font-face {
-  font-family: "HurmeGeometricSans3-Regular";
-  src: local("HurmeGeometricSans3-Regular"), url("../fonts/HurmeGeometricSans3-Regular.woff") format("woff");
+  font-family: "empikPro-Regular";
+  src: local("empikPro-Regular"), url("../fonts/empikPro-Regular.woff2") format("truetype");
 }
 @font-face {
-  font-family: "HurmeGeometricSans3-Black";
-  src: local("HurmeGeometricSans3-Black"), url("../fonts/HurmeGeometricSans3-Black.woff") format("woff");
-}
-@font-face {
-  font-family: "HurmeGeometricSans3-Light";
-  src: local("HurmeGeometricSans3-Light"), url("../fonts/HurmeGeometricSans3-Light.woff2") format("woff2");
+  font-family: "empikPro-Black";
+  src: local("empikPro-Black"), url("../fonts/empikPro-Black.woff2") format("truetype");
 }
 #es-rc #es-rc-content {
   margin: 0 auto;
   padding: 0;
-  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-family: "empikPro-Regular", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.2;
@@ -46,7 +42,7 @@
 #es-rc #es-rc-content .es-title {
   padding-top: 10px;
   margin-bottom: 10px;
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Bold", sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: #13294b;
@@ -59,7 +55,7 @@
   display: none;
 }
 #es-rc #es-rc-content .es-features {
-  background: url("https://www.datocms-assets.com/114232/1743696378-features-bg-mobile.png") no-repeat center center;
+  background: url("../images/features-bg-mobile.png") no-repeat center center;
   min-height: 400px;
   background-size: cover;
   position: relative;
@@ -68,7 +64,7 @@
 }
 #es-rc #es-rc-content .es-features__title {
   padding-top: 30px;
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Bold", sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: #13294b;
@@ -94,7 +90,7 @@
   background-color: #13294b;
   font-size: 12px;
   color: #ffffff;
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Bold", sans-serif;
   font-weight: 800;
   text-decoration: none;
   text-transform: uppercase;
@@ -113,7 +109,7 @@
 }
 #es-rc #es-rc-content .es-cross__subtitle {
   margin-bottom: 30px;
-  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-family: "empikPro-Regular", sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: #13294b;
@@ -159,8 +155,8 @@
 #es-rc #es-rc-content .es-cross__single-title {
   margin-bottom: 10px;
   min-height: 40px;
-  font-family: "HurmeGeometricSans3-Regular", sans-serif;
-  font-family: "HurmeGeometricSans3-Black", sans-serif;
+  font-family: "empikPro-Regular", sans-serif;
+  font-family: "empikPro-Black", sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
@@ -171,7 +167,7 @@
   max-width: 250px;
   min-height: 76px;
   margin-bottom: 20px;
-  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-family: "empikPro-Regular", sans-serif;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
@@ -179,7 +175,7 @@
 }
 #es-rc #es-rc-content .es-cross__single-link {
   margin-bottom: 20px;
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Bold", sans-serif;
   font-weight: 700;
   padding: 20px 60px;
   letter-spacing: 0.1em;
@@ -199,7 +195,7 @@
   max-width: 300px;
   margin-bottom: 20px;
   padding-inline: 8px;
-  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-family: "empikPro-Regular", sans-serif;
   font-weight: 400;
   font-size: 12px;
   text-align: center;
@@ -208,7 +204,7 @@
 #es-rc #es-rc-content .es-cross__disclaimer--desktop {
   margin-top: 20px;
   display: none;
-  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-family: "empikPro-Regular", sans-serif;
   color: #13294b;
   text-align: center;
   font-size: 16px;
@@ -234,7 +230,7 @@
   max-width: 90%;
   margin: 0 auto;
   margin-bottom: 30px;
-  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-family: "empikPro-Regular", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #ffffff;
@@ -294,7 +290,7 @@
   gap: 5px;
 }
 #es-rc #es-rc-content .es-change__single-title {
-  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-family: "empikPro-Bold", sans-serif;
   font-weight: 700;
   color: #13294b;
 }
@@ -318,7 +314,7 @@
   height: 50px;
 }
 #es-rc #es-rc-content .es-change__disclaimer {
-  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-family: "empikPro-Regular", sans-serif;
   font-weight: 400;
   font-size: 12px;
   text-align: center;
@@ -429,7 +425,7 @@
     display: block;
   }
   #es-rc #es-rc-content .es-features {
-    background: #eeeae5 url(https://www.datocms-assets.com/114232/1744014041-features-bg-desktop.png) no-repeat center center;
+    background: #eeeae5 url("../images/features-bg-desktop.png") no-repeat center center;
     background-size: cover;
     min-height: 330px;
     margin-bottom: 0;
@@ -463,7 +459,7 @@
     gap: 20px;
   }
   #es-rc #es-rc-content .es-features__disclaimer {
-    font-family: "HurmeGeometricSans3-Regular", sans-serif;
+    font-family: "empikPro-Regular", sans-serif;
     font-weight: 500;
     position: static;
     -webkit-box-ordinal-group: 3;
@@ -621,7 +617,7 @@
   }
   #es-rc #es-rc-content .es-change__right {
     max-width: 30%;
-    background: url("https://www.datocms-assets.com/114232/1743696379-steps-bg-desktop.png") no-repeat center center;
+    background: url("../images/steps-bg-desktop.png") no-repeat center center;
     background-size: cover;
     min-height: 640px;
     width: 100%;
