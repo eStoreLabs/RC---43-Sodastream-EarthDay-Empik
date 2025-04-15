@@ -95,7 +95,7 @@ $secondary: #002238;
   }
 
   .es-features {
-    background: url('https://www.datocms-assets.com/114232/1743696378-features-bg-mobile.png')
+    background: url('../images/features-bg-mobile.png')
       no-repeat center center;
     min-height: 400px;
     background-size: cover;
@@ -141,7 +141,7 @@ $secondary: #002238;
   }
 
   .es-cross {
-    padding-top: 30px;
+    padding-top: 50px;
     max-width: 100%;
     margin: 0 auto;
     padding-bottom: 70px;
@@ -414,7 +414,7 @@ $secondary: #002238;
   }
 
   .es-video {
-    padding: 2% 0% 2%;
+    padding: 6% 0% 2%;
     min-height: 600px;
     margin-bottom: 100px;
 
@@ -550,7 +550,7 @@ $secondary: #002238;
 
     .es-features {
       background: #eeeae5
-        url(https://www.datocms-assets.com/114232/1744014041-features-bg-desktop.png)
+        url(../images/features-bg-desktop-w.png)
         no-repeat center center;
       background-size: cover;
       min-height: 330px;
@@ -621,6 +621,7 @@ $secondary: #002238;
         min-height: auto;
         height: auto;
         padding-bottom: 20px;
+        justify-content: space-between;
       }
 
       &__single-subtitle-disclaimer {
@@ -746,7 +747,7 @@ $secondary: #002238;
       height: auto;
       min-height: unset;
       margin-bottom: 0;
-      padding: 2% 10% 8%;
+      padding: 6% 10% 8%;
 
       &__iframe {
         &--mobile {
@@ -789,7 +790,7 @@ $secondary: #002238;
       }
       &__right {
         max-width: 30%;
-        background: url('https://www.datocms-assets.com/114232/1743696379-steps-bg-desktop.png')
+        background: url('../images/steps-bg-desktop.png')
           no-repeat center center;
         background-size: cover;
         min-height: 640px;
@@ -849,8 +850,8 @@ $secondary: #002238;
     }
 
     .es-cross {
-      padding-bottom: 20px;
-      padding-top: 30px;
+      padding-bottom: 50px;
+      padding-top: 50px;
 
       &__title {
         max-width: 60%;
